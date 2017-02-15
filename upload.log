@@ -1,0 +1,5 @@
+white usb cord:
+OPT_DEFS=-DPCBDOWN make upload KEYMAP=CT USB=/dev/cu.usbmodem1411
+
+black usb cord:
+make upload KEYMAP=CT USB=/dev/cu.usbmodem1421
